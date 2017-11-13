@@ -150,7 +150,10 @@ static CGFloat   const WMLoadMoreViewHeight     = 40.0;
         CGFloat scrollOffsetThreshold = scrollViewContentHeight - scrollView.bounds.size.height;
         
 #ifdef __IPHONE_11_0
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability-new"
         scrollOffsetThreshold -= scrollView.adjustedContentInset.top;
+#pragma clang diagnostic pop
 #else
         scrollOffsetThreshold -= scrollView.contentInset.top;
 #endif
