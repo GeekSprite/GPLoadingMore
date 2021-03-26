@@ -76,14 +76,14 @@ static CGFloat   const WMLoadMoreViewHeight     = 40.0;
     
     _frontIndicatorLayer = [CAShapeLayer layer];
     _frontIndicatorLayer.fillColor = [UIColor clearColor].CGColor;
-    _frontIndicatorLayer.strokeColor = [[UIColor alloc] initWithRed:255.0 / 255.0 green:45.0 / 255.0 blue:75.0/255.0 alpha:1.0].CGColor;
+    _frontIndicatorLayer.strokeColor = [[UIColor alloc] initWithRed:145.f / 255.0 green:182.0 / 255.0 blue:93.0/255.0 alpha:1.0].CGColor;
     _frontIndicatorLayer.lineCap = kCALineCapRound;
     _frontIndicatorLayer.lineJoin = kCALineJoinMiter;
     _frontIndicatorLayer.lineWidth = lineWidth;
     
     _backIndicatorLayer = [CAShapeLayer layer];
     _backIndicatorLayer.fillColor = [UIColor clearColor].CGColor;
-    _backIndicatorLayer.strokeColor = [[UIColor alloc] initWithRed:255.0 / 255.0 green:45.0 / 255.0 blue:75.0/255.0 alpha:1.0].CGColor;
+    _backIndicatorLayer.strokeColor = [[UIColor alloc] initWithRed:145.f / 255.0 green:182.0 / 255.0 blue:93.0/255.0 alpha:1.0].CGColor;
     _backIndicatorLayer.lineCap = kCALineCapRound;
     _backIndicatorLayer.lineJoin = kCALineCapRound;
     _backIndicatorLayer.lineWidth = lineWidth;
